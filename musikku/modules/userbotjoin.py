@@ -34,7 +34,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f" ⛔ Permintaan bnjur ⛔\nPengguna {user.first_name} tidak dapat bergabung dengan grup Anda karena banyak permintaan bergabung untuk userbot! Pastikan pengguna tidak diblokir di grup."
-            " \n \n Atau tambahkan BOT Asisten secara manual ke Grup Anda dan coba lagi</b>" ,
+            "\n\nAtau tambahkan BOT Asisten secara manual ke Grup Anda dan coba lagi</b>" ,
          )
         return
     await message.reply_text(
