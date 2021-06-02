@@ -25,7 +25,7 @@
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jokokendi/MY-VCG)
 
-get pyrogram string session or [repl](https://replit.com/@Vckyou/Geez-String-Session#main.py) Choose P Don't T
+get pyrogram string session or [String Sesion](https://replit.com/@Vckyou/Geez-String-Session#main.py) Choose P Don't T
 
 ### ⚔ Self-hosting (For Devs) 
 ```sh
