@@ -1,10 +1,10 @@
-<h1 align="centre">🎶 Musik-Ken</h1>
+<h1 align="centre">🎶 MY-VCG</h1>
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
 #### POWERED BY [PYTGCALLS](https://github.com/pytgcalls/pytgcalls)
 
 <p align="center">
-  <img src="https://telegra.ph/file/5faef2abd77096b49f12c.jpg">
+  <img src="https://telegra.ph/file/c8227ff23fa75b9d2b9f7.jpg">
 </p>
 
 <h2> Whats new 🔥 </h2>
@@ -23,14 +23,14 @@
 
 ### Deploy To Heroku
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kenkannih/Musik-Ken)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jokokendi/MY-VCG)
 
 get pyrogram string session or [repl](https://replit.com/@Vckyou/Geez-String-Session#main.py) Choose P Don't T
 
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/kenkannih/KenMusik
+$ git clone https://github.com/jokokendi/MY-VCG
 $ cd musikku
 # Upgrade sources
 # Install All Requirements 
