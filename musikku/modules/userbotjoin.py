@@ -21,21 +21,21 @@ async def addchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Geez-MusicProject"
+        user.first_name = "MY-VCG"
 
     try:
         await USER.join_chat(invitelink)
-        await USER.send_message(message.chat.id, "I joined here as you requested")
+        await USER.send_message(message.chat.id, "Dahlah di culik lagi gue")
     except UserAlreadyParticipant:
         await message.reply_text(
-            "<b>helper already in your chat</b>",
+            "<b>Cuma jadi kang bacot</b>",
         )
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🛑 Permintaan banjir 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
-            "\n\nAtau tambahkan BOT Asisten secara manual ke Grup Anda dan coba lagi</b>",
-        )
+            f" ⛔ Permintaan bnjur ⛔\nPengguna {user.first_name} tidak dapat bergabung dengan grup Anda karena banyak permintaan bergabung untuk userbot! Pastikan pengguna tidak diblokir di grup."
+            " \n \n Atau tambahkan BOT Asisten secara manual ke Grup Anda dan coba lagi</b>" ,
+         )
         return
     await message.reply_text(
         "<b>bantu userbot bergabung dengan obrolan Anda</b>",
@@ -48,8 +48,8 @@ async def rem(USER, message):
         await USER.leave_chat(message.chat.id)
     except:
         await message.reply_text(
-            f"<b>User couldn't leave your group! May be floodwaits."
-            "\n\nOr manually kick me from to your Group</b>",
+          f"<b>Pengguna tidak dapat meninggalkan grup Anda! Mungkin menunggu lama." 
+           "\n\nAtau cara manual menendang saya dari Grup Anda</b>",
         )
         return
 
@@ -69,31 +69,31 @@ async def addcchannel(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>Add me as admin of yor channel first</b>",
+            "<b>Jadiin admin dulu bangke</b>",
         )
         return
 
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Geez-MusicProject"
+        user.first_name = "MY-VCG"
 
     try:
         await USER.join_chat(invitelink)
         await USER.send_message(message.chat.id, "I joined here as you requested")
     except UserAlreadyParticipant:
         await message.reply_text(
-            "<b>helper already in your channel</b>",
+            "<b>Gue dah siap bangst</b>",
         )
         return
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🛑 Permintaan banjir 🛑 \n User {user.first_name} couldn't join your channel due to heavy join requests for userbot! Make sure user is not banned in channel."
-            "\n\nAtau tambahkan BOT Asisten secara manual ke Grup Anda dan coba lagi</b>",
-        )
-        return
+            f"⛔ Permintaan banjir ⛔\nPengguna {user.first_name} tidak dapat bergabung dengan grup Anda karena banyak permintaan bergabung untuk userbot! Pastikan pengguna tidak diblokir di grup."
+            "\n\nAtau tambahkan BOT Asisten secara manual ke Grup Anda dan coba lagi</b>" ,
+         )
+    return
     await message.reply_text(
-        "<b>helper userbot joined your channel</b>",
+        "<b>Gue dah gabung cuk</b>",
     )
     
