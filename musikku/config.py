@@ -19,7 +19,7 @@ BOT_USERNAME = getenv("BOT_USERNAME")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "GeezAssistant")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "VcgSupportGroup")
 PROJECT_NAME = getenv("PROJECT_NAME", "Geez Mudic Project")
-SOURCE_CODE = getenv("SOURCE_CODE", "github.com/Vckyou/Geez-MusicProject")
+SOURCE_CODE = getenv("SOURCE_CODE", "github.com/jokokendi/MY-VCG")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 
