@@ -1,8 +1,8 @@
 {
-  "name": "Geez-MusicProject",
+  "name": "MY-VCG",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/kenkannih/Musik-ken",
+  "repository": "https://github.com/jokokendi/MY-VCG",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -39,7 +39,7 @@
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": "https://telegra.ph/file/ad54dc991d9e41dbbe37d.png"
+      "value": "https://telegra.ph/file/de8ab1a6ff1e641ef04d5.jpg"
     },     
     "UPDATES_CHANNEL": {
       "description": "Untuk Melihat Update an Di Channel @ [Skipp Aja Kalo Lu Gapunya].",
