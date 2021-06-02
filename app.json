@@ -25,12 +25,12 @@
     "SUPPORT_GROUP": {
       "description": "Grup dukungan MusicPlayer Anda tanpa @ [Skip Aja Kalo Lu Gapunya]",
       "required": false,
-      "value": "VcgSupportGroup"
+      "value": "gcsupportbots"
     },
     "PROJECT_NAME": {
       "description": "Nama proyek MusicPlayer Anda..",
       "required": false,
-      "value": "Geez Music Project"
+      "value": "MY-VCG"
     },
     "ASSISTANT_NAME": {
       "description": "Isi Nama pengguna asisten MusicPlayer Anda tanpa @.",
@@ -61,7 +61,7 @@
     "DURATION_LIMIT": {
       "description": "Batas durasi audio maksimal untuk download (minutes).",
       "required": true,
-      "value": "15"
+      "value": "300"
     }
   }
 }
