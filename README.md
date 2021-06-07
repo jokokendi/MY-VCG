@@ -25,7 +25,11 @@
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jokokendi/MY-VCG)
 
-get pyrogram string session or [String Sesion](https://replit.com/@Vckyou/Geez-String-Session#main.py) Choose P Don't T
+# STRINGS SESSION
+
+<a href="https://repl.it/@kenkannih/strings-session#main.py"><img src="https://img.shields.io/badge/run-string session-blue?style=for-the-badge&logo=repl.it" alt="generate_string"/></a>
+
+Choose P Don't T
 
 ### ⚔ Self-hosting (For Devs) 
 ```sh
