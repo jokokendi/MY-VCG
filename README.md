@@ -80,7 +80,7 @@ This bot is based on the original work done by [Rojserbest](http://github.com/ro
 Geez-MusicProject is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @GeezManageBot users
 
 #### Contribtors
-- [vckyou](https://github.com/vckyou/Geez-MusicProjec)
+- [vckyou](https://github.com/vckyou/Geez-MusicProject)
 - [InukaASiTH](https://github.com/InukaAsith): Dev
 - [Rojserbest](http://github.com/rojserbes): Dev
 - [QueenArzoo](https://github.com/QueenArzoo): Dev
