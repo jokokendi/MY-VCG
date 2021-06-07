@@ -28,8 +28,6 @@ f"""
 - /play <judul lagu> : memutar lagu dengan mengetikan judul lagu
 - /play <yt link> : memutar lagu melalui link yt
 - /play <reply ke vn> : memutar dari vn dgn cara reply vn tersebut
-- /dplay <judul lagu> : memutar lagu via deezer
-- /splay <judul lagu> : memutar lagu jio saavn
 
 ⎋ **Daftar Perintah lain**
 
@@ -64,8 +62,6 @@ f"""
 **Daftar Perintah Menggunakan Bot di Channel**
 
 - /cplay <judul lagu> : memutar lagu dengan mengetikan judul lagu
-- /cdplay <judul lagu> : memutar lagu via deezer
-- /csplay <judul lagu> : memutar lagu jio saavn
 - /cplaylist - melihat daftar playlist
 - /cccurrent - melihat lagu yang sedang diputar
 - /cplayer - membuka panel pengaturan Musik Player
